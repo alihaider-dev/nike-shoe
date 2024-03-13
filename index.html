@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to Penguin Fashion</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header class="bg-orange-50">
+      <div class="container mx-auto">
+        <!-- Navigation Bar -->
+        <nav class="nav-bar columns-2 py-10">
+          <!-- Website Logo -->
+          <div class="logo">
+            <img class="w-52" src="icons/Logo.png" alt="" />
+          </div>
+          <!-- Navigation Menu -->
+          <div class="main-menu">
+            <ul class="flex justify-end gap-10">
+              <li><a href="">HOME</a></li>
+              <li><a href="">Products</a></li>
+              <li><a href="">About Us</a></li>
+              <li><a href="">Contact</a></li>
+            </ul>
+          </div>
+        </nav>
+        <!-- Hero Section -->
+        <div class="hero-section columns-2 flex items-center pb-20">
+          <!-- Hero Section Image Area -->
+          <div class="w-1/2 image-area">
+            <img class="w-96" src="images/shoe-yellow.png" alt="" />
+          </div>
+          <!-- Hero Section Content Area -->
+          <div class="w-1/2 content-area flex flex-col gap-5">
+            <div class="content-title">
+              <h1 class="text-6xl text-orange-500 uppercase font-semibold">
+                Nick React
+              </h1>
+              <span class="text-6xl uppercase font-semibold">Infinity Run</span>
+            </div>
+            <p class="text-sm">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry.
+            </p>
+            <button
+              class="w-32 bg-blue-700 text-white py-2 px-5 rounded-md uppercase"
+            >
+              Buy Now
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+  </body>
+</html>
