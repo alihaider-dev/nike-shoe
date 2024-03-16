@@ -6,6 +6,15 @@
     <title>Welcome to Penguin Fashion</title>
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Font -->
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Truculenta:opsz,wght@12..72,100..900&display=swap');
+    </style>
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/f1eaf2e69d.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <!-- Header Section -->
@@ -39,16 +48,18 @@
               <h1 class="text-6xl text-orange-500 uppercase font-semibold">
                 Nick React
               </h1>
-              <span class="text-6xl uppercase font-semibold">Infinity Run</span>
+              <span class="text-6xl uppercase font-semibold"
+                >Infinity <span style="font-family: Truculenta">Run</span></span
+              >
             </div>
             <p class="text-sm">
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry.
             </p>
             <button
-              class="w-32 bg-blue-700 text-white py-2 px-5 rounded-md uppercase"
+              class="w-40 md:w-96 bg-blue-700 text-white py-2 px-5 rounded-md uppercase"
             >
-              Buy Now
+              <i class="fa-solid fa-cart-shopping"></i> Buy Now
             </button>
           </div>
         </div>
